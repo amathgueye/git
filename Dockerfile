@@ -5,6 +5,6 @@ FROM python:3.9
 WORKDIR /app
 
 # Copy the Python script to the working directory
-COPY samba.py .
+COPY amath.py .
 # Define the command to run the Python script
-CMD ["python", "samba.py"]
+CMD ["python", "amath.py"]
